@@ -9,8 +9,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
     background-color: #595db8;
+}
+h3 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 20px;
 }
 .sortable-list {
     background-color: #fff;
@@ -47,5 +53,5 @@ body {
     font-size: 1.13rem;
 }
 .item.dragging :where(.details, i) {
-    opac
+    opacity: 0;
 }
